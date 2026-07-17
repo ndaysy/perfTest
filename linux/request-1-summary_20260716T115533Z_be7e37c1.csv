@@ -1,0 +1,2 @@
+﻿run_id,env,mode,base_policy_id,datasource_id,concurrency,target_detail_count,actual_detail_count,success_count,fail_count,total_duration_ms,throughput_per_min,avg_ms,p50_ms,p90_ms,p95_ms,max_ms
+20260716T115533Z_be7e37c1,linux,request,perf_request_request_20260716115533,request,1,100,100,100,0,442529.6,13.6,4425.1,4559.8,5520.1,5640.5,5914.8

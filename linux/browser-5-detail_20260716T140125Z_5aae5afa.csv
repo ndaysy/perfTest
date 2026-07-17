@@ -1,0 +1,250 @@
+﻿run_id,env,mode,base_policy_id,worker_policy_id,datasource_id,concurrency,task_id,source_index,start_time,end_time,duration_ms,status,error
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,4,3,2026-07-16T14:01:39.331848+00:00,2026-07-16T14:09:21.896550+00:00,462564.7,fail,网页打开失败:https://finance.now.com/news/post.php?id=978373&type=local
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,1,0,2026-07-16T14:01:39.301174+00:00,2026-07-16T14:09:21.955091+00:00,462653.9,fail,网页打开失败:https://finance.now.com/news/post.php?id=978383&type=local
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,5,4,2026-07-16T14:01:39.324793+00:00,2026-07-16T14:09:22.104458+00:00,462779.7,fail,网页打开失败:https://finance.now.com/news/post.php?id=978364&type=local
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,3,2,2026-07-16T14:01:39.312503+00:00,2026-07-16T14:09:22.116563+00:00,462804.1,fail,网页打开失败:https://finance.now.com/news/post.php?id=978374&type=local
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,2,1,2026-07-16T14:01:39.304709+00:00,2026-07-16T14:09:22.161142+00:00,462856.4,fail,网页打开失败:https://finance.now.com/news/post.php?id=978375&type=local
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,8,7,2026-07-16T14:09:22.127119+00:00,2026-07-16T14:11:25.763810+00:00,123636.7,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,10,9,2026-07-16T14:09:22.104767+00:00,2026-07-16T14:13:06.141814+00:00,224037.0,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,13,12,2026-07-16T14:11:25.789975+00:00,2026-07-16T14:13:08.238485+00:00,102448.5,fail,"浏览器初始化失败:Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x63f5d8bb0303 <unknown>
+#1 0x63f5d8984d37 <unknown>
+#2 0x63f5d89b0a09 <unknown>
+#3 0x63f5d89ac66c <unknown>
+#4 0x63f5d89a9330 <unknown>
+#5 0x63f5d89ea4a6 <unknown>
+#6 0x63f5d89e1753 <unknown>
+#7 0x63f5d89b4a14 <unknown>
+#8 0x63f5d89b5b7e <unknown>
+#9 0x63f5d8bff32e <unknown>
+#10 0x63f5d8c02c0e <unknown>
+#11 0x63f5d8be5610 <unknown>
+#12 0x63f5d8c03c23 <unknown>
+#13 0x63f5d8bd7545 <unknown>
+#14 0x63f5d8c246a8 <u"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,6,5,2026-07-16T14:09:21.957750+00:00,2026-07-16T14:14:24.499004+00:00,302541.3,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,18,17,2026-07-16T14:13:08.244794+00:00,2026-07-16T14:14:27.620443+00:00,79375.6,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x6317452b2303 <unknown>
+#1 0x631745086bbd <unknown>
+#2 0x6317450755ab <unknown>
+#3 0x6317450b33c3 <unknown>
+#4 0x6317450ae80e <unknown>
+#5 0x6317450ab330 <unknown>
+#6 0x6317450ec4a6 <unknown>
+#7 0x6317450e3753 <unknown>
+#8 0x6317450b6a14 <unknown>
+#9 0x6317450b7b7e <unknown>
+#10 0x63174530132e <unknown>
+#11 0x631745304c0e <unknown>
+#12 0x6317452e7610 <unknown>
+#13 0x631745305c23 <unknown>
+#14 0x6317452d9545 <unknown>
+#15 0x6317453266a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,9,8,2026-07-16T14:09:21.904669+00:00,2026-07-16T14:15:25.731668+00:00,363827.0,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,23,2,2026-07-16T14:14:27.634730+00:00,2026-07-16T14:16:00.847372+00:00,93212.6,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x5fe745a19303 <unknown>
+#1 0x5fe7457edbbd <unknown>
+#2 0x5fe7457dc5ab <unknown>
+#3 0x5fe74581a3c3 <unknown>
+#4 0x5fe74581580e <unknown>
+#5 0x5fe745812330 <unknown>
+#6 0x5fe7458534a6 <unknown>
+#7 0x5fe74584a753 <unknown>
+#8 0x5fe74581da14 <unknown>
+#9 0x5fe74581eb7e <unknown>
+#10 0x5fe745a6832e <unknown>
+#11 0x5fe745a6bc0e <unknown>
+#12 0x5fe745a4e610 <unknown>
+#13 0x5fe745a6cc23 <unknown>
+#14 0x5fe745a40545 <unknown>
+#15 0x5fe745a8d6a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,11,10,2026-07-16T14:14:24.513109+00:00,2026-07-16T14:16:10.518893+00:00,106005.8,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,7,6,2026-07-16T14:09:22.161460+00:00,2026-07-16T14:16:46.159619+00:00,443998.2,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,15,14,2026-07-16T14:13:06.147334+00:00,2026-07-16T14:16:48.429245+00:00,222281.9,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,14,13,2026-07-16T14:15:25.732929+00:00,2026-07-16T14:18:10.500073+00:00,164767.1,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,12,11,2026-07-16T14:16:46.177632+00:00,2026-07-16T14:18:11.952118+00:00,85774.5,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x5c59e090f303 <unknown>
+#1 0x5c59e06e3bbd <unknown>
+#2 0x5c59e06d25ab <unknown>
+#3 0x5c59e07103c3 <unknown>
+#4 0x5c59e070b80e <unknown>
+#5 0x5c59e0708330 <unknown>
+#6 0x5c59e07494a6 <unknown>
+#7 0x5c59e0740753 <unknown>
+#8 0x5c59e0713a14 <unknown>
+#9 0x5c59e0714b7e <unknown>
+#10 0x5c59e095e32e <unknown>
+#11 0x5c59e0961c0e <unknown>
+#12 0x5c59e0944610 <unknown>
+#13 0x5c59e0962c23 <unknown>
+#14 0x5c59e0936545 <unknown>
+#15 0x5c59e09836a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,20,19,2026-07-16T14:16:48.429384+00:00,2026-07-16T14:18:12.031341+00:00,83602.0,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x62cc5fa12303 <unknown>
+#1 0x62cc5f7e6bbd <unknown>
+#2 0x62cc5f7d55ab <unknown>
+#3 0x62cc5f8133c3 <unknown>
+#4 0x62cc5f80e80e <unknown>
+#5 0x62cc5f80b330 <unknown>
+#6 0x62cc5f84c4a6 <unknown>
+#7 0x62cc5f843753 <unknown>
+#8 0x62cc5f816a14 <unknown>
+#9 0x62cc5f817b7e <unknown>
+#10 0x62cc5fa6132e <unknown>
+#11 0x62cc5fa64c0e <unknown>
+#12 0x62cc5fa47610 <unknown>
+#13 0x62cc5fa65c23 <unknown>
+#14 0x62cc5fa39545 <unknown>
+#15 0x62cc5fa866a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,28,7,2026-07-16T14:16:00.936488+00:00,2026-07-16T14:18:40.303413+00:00,159366.9,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,16,15,2026-07-16T14:16:10.654703+00:00,2026-07-16T14:18:40.397993+00:00,149743.3,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,17,16,2026-07-16T14:18:11.954329+00:00,2026-07-16T14:20:48.161215+00:00,156206.9,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,33,12,2026-07-16T14:18:40.319762+00:00,2026-07-16T14:20:48.998141+00:00,128678.4,fail,"浏览器初始化失败:HTTPConnectionPool(host='localhost', port=45327): Read timed out. (read timeout=120)"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,21,0,2026-07-16T14:18:40.398338+00:00,2026-07-16T14:22:48.613334+00:00,248215.0,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,38,17,2026-07-16T14:20:48.998497+00:00,2026-07-16T14:22:48.774382+00:00,119775.9,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x5823d3093303 <unknown>
+#1 0x5823d2e67bbd <unknown>
+#2 0x5823d2e565ab <unknown>
+#3 0x5823d2e943c3 <unknown>
+#4 0x5823d2e8f80e <unknown>
+#5 0x5823d2e8c330 <unknown>
+#6 0x5823d2ecd4a6 <unknown>
+#7 0x5823d2ec4753 <unknown>
+#8 0x5823d2e97a14 <unknown>
+#9 0x5823d2e98b7e <unknown>
+#10 0x5823d30e232e <unknown>
+#11 0x5823d30e5c0e <unknown>
+#12 0x5823d30c8610 <unknown>
+#13 0x5823d30e6c23 <unknown>
+#14 0x5823d30ba545 <unknown>
+#15 0x5823d31076a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,25,4,2026-07-16T14:18:12.031829+00:00,2026-07-16T14:22:49.201031+00:00,277169.2,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,22,1,2026-07-16T14:20:48.214884+00:00,2026-07-16T14:22:49.296981+00:00,121082.1,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x55e782e06303 <unknown>
+#1 0x55e782bdabbd <unknown>
+#2 0x55e782bc95ab <unknown>
+#3 0x55e782c073c3 <unknown>
+#4 0x55e782c0280e <unknown>
+#5 0x55e782bff330 <unknown>
+#6 0x55e782c404a6 <unknown>
+#7 0x55e782c37753 <unknown>
+#8 0x55e782c0aa14 <unknown>
+#9 0x55e782c0bb7e <unknown>
+#10 0x55e782e5532e <unknown>
+#11 0x55e782e58c0e <unknown>
+#12 0x55e782e3b610 <unknown>
+#13 0x55e782e59c23 <unknown>
+#14 0x55e782e2d545 <unknown>
+#15 0x55e782e7a6a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,19,18,2026-07-16T14:18:10.699031+00:00,2026-07-16T14:23:55.434154+00:00,344735.1,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,30,9,2026-07-16T14:22:49.202146+00:00,2026-07-16T14:25:49.958228+00:00,180756.1,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,24,3,2026-07-16T14:23:55.488951+00:00,2026-07-16T14:25:54.067451+00:00,118578.5,fail,"浏览器初始化失败:Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x580b9039f303 <unknown>
+#1 0x580b90173d37 <unknown>
+#2 0x580b9019fa09 <unknown>
+#3 0x580b9019b66c <unknown>
+#4 0x580b90198330 <unknown>
+#5 0x580b901d94a6 <unknown>
+#6 0x580b901d0753 <unknown>
+#7 0x580b901a3a14 <unknown>
+#8 0x580b901a4b7e <unknown>
+#9 0x580b903ee32e <unknown>
+#10 0x580b903f1c0e <unknown>
+#11 0x580b903d4610 <unknown>
+#12 0x580b903f2c23 <unknown>
+#13 0x580b903c6545 <unknown>
+#14 0x580b904136a8 <u"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,27,6,2026-07-16T14:22:49.297323+00:00,2026-07-16T14:27:33.323511+00:00,284026.2,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,29,8,2026-07-16T14:25:54.067796+00:00,2026-07-16T14:27:45.185340+00:00,111117.5,fail,"浏览器初始化失败:Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x5e28d227c303 <unknown>
+#1 0x5e28d2050d37 <unknown>
+#2 0x5e28d207ca09 <unknown>
+#3 0x5e28d207866c <unknown>
+#4 0x5e28d2075330 <unknown>
+#5 0x5e28d20b64a6 <unknown>
+#6 0x5e28d20ad753 <unknown>
+#7 0x5e28d2080a14 <unknown>
+#8 0x5e28d2081b7e <unknown>
+#9 0x5e28d22cb32e <unknown>
+#10 0x5e28d22cec0e <unknown>
+#11 0x5e28d22b1610 <unknown>
+#12 0x5e28d22cfc23 <unknown>
+#13 0x5e28d22a3545 <unknown>
+#14 0x5e28d22f06a8 <u"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,43,2,2026-07-16T14:22:48.774681+00:00,2026-07-16T14:28:14.683118+00:00,325908.4,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,26,5,2026-07-16T14:22:48.641986+00:00,2026-07-16T14:28:47.704767+00:00,359062.8,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,35,14,2026-07-16T14:25:49.986983+00:00,2026-07-16T14:29:21.146385+00:00,211159.4,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,32,11,2026-07-16T14:27:33.479439+00:00,2026-07-16T14:29:56.526258+00:00,143046.8,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,37,16,2026-07-16T14:29:56.566447+00:00,2026-07-16T14:31:06.250912+00:00,69684.5,fail,"浏览器初始化失败:Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x59ccd8178303 <unknown>
+#1 0x59ccd7f4cd37 <unknown>
+#2 0x59ccd7f78a09 <unknown>
+#3 0x59ccd7f7466c <unknown>
+#4 0x59ccd7f71330 <unknown>
+#5 0x59ccd7fb24a6 <unknown>
+#6 0x59ccd7fa9753 <unknown>
+#7 0x59ccd7f7ca14 <unknown>
+#8 0x59ccd7f7db7e <unknown>
+#9 0x59ccd81c732e <unknown>
+#10 0x59ccd81cac0e <unknown>
+#11 0x59ccd81ad610 <unknown>
+#12 0x59ccd81cbc23 <unknown>
+#13 0x59ccd819f545 <unknown>
+#14 0x59ccd81ec6a8 <u"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,31,10,2026-07-16T14:28:47.729339+00:00,2026-07-16T14:31:28.898228+00:00,161168.9,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,34,13,2026-07-16T14:27:45.185891+00:00,2026-07-16T14:31:29.897443+00:00,224711.6,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$1,browser-no-res,5,48,7,2026-07-16T14:28:14.717773+00:00,2026-07-16T14:33:02.250516+00:00,287532.7,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,39,18,2026-07-16T14:31:29.903550+00:00,2026-07-16T14:33:07.085308+00:00,97181.8,fail,"浏览器初始化失败:Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x5a557827e303 <unknown>
+#1 0x5a5578052d37 <unknown>
+#2 0x5a557807ea09 <unknown>
+#3 0x5a557807a66c <unknown>
+#4 0x5a5578077330 <unknown>
+#5 0x5a55780b84a6 <unknown>
+#6 0x5a55780af753 <unknown>
+#7 0x5a5578082a14 <unknown>
+#8 0x5a5578083b7e <unknown>
+#9 0x5a55782cd32e <unknown>
+#10 0x5a55782d0c0e <unknown>
+#11 0x5a55782b3610 <unknown>
+#12 0x5a55782d1c23 <unknown>
+#13 0x5a55782a5545 <unknown>
+#14 0x5a55782f26a8 <u"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,36,15,2026-07-16T14:31:28.900962+00:00,2026-07-16T14:33:08.172899+00:00,99271.9,fail,"浏览器初始化失败:Message: chrome not reachable
+Stacktrace:
+#0 0x56d071197303 <unknown>
+#1 0x56d070f6bbbd <unknown>
+#2 0x56d070f5a5ab <unknown>
+#3 0x56d070f983c3 <unknown>
+#4 0x56d070f9380e <unknown>
+#5 0x56d070f90330 <unknown>
+#6 0x56d070fd14a6 <unknown>
+#7 0x56d070fc8753 <unknown>
+#8 0x56d070f9ba14 <unknown>
+#9 0x56d070f9cb7e <unknown>
+#10 0x56d0711e632e <unknown>
+#11 0x56d0711e9c0e <unknown>
+#12 0x56d0711cc610 <unknown>
+#13 0x56d0711eac23 <unknown>
+#14 0x56d0711be545 <unknown>
+#15 0x56d07120b6a8 <unkn"
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,42,1,2026-07-16T14:31:06.319809+00:00,2026-07-16T14:33:09.420066+00:00,123100.3,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,40,19,2026-07-16T14:29:21.175122+00:00,2026-07-16T14:33:27.892683+00:00,246717.6,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$0,browser-no-res,5,47,6,2026-07-16T14:33:09.420286+00:00,2026-07-16T14:34:21.285771+00:00,71865.5,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,44,3,2026-07-16T14:33:07.087513+00:00,2026-07-16T14:34:25.632905+00:00,78545.4,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,41,0,2026-07-16T14:33:08.173173+00:00,2026-07-16T14:34:35.012621+00:00,86839.4,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,45,4,2026-07-16T14:33:27.892981+00:00,2026-07-16T14:34:44.506228+00:00,76613.2,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$2,browser-no-res,5,49,8,2026-07-16T14:34:25.633134+00:00,2026-07-16T14:35:15.821317+00:00,50188.2,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125$3,browser-no-res,5,50,9,2026-07-16T14:34:44.506460+00:00,2026-07-16T14:35:21.015299+00:00,36508.8,success,
+20260716T140125Z_5aae5afa,linux,browser,perf_browser_browser-no-res_20260716140125,perf_browser_browser-no-res_20260716140125,browser-no-res,5,46,5,2026-07-16T14:34:35.016732+00:00,2026-07-16T14:35:28.991025+00:00,53974.3,success,
