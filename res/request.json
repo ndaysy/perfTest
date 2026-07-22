@@ -1,0 +1,86 @@
+{
+  "url": "https://www.dotdotnews.com/immed/hknews",
+  "componentCfg": {
+    "isBrowser": "0",
+    "mode": "multiTreeLevel",
+    "treeConf": {
+      "type": "list",
+      "listConf": {
+        "listParseByRow": {
+          "rowXPath": [
+            "//*[@id=\"more-list\"]/./div[@class='item']"
+          ],
+          "scene": {},
+          "fieldConfig": {
+            "fieldGroup1": {
+              "url": {
+                "xpath": ".//div[contains(@class,'story_cover')]//a[contains(@class,'lazy')]/@href"
+              },
+              "title": {
+                "xpath": ".//div[contains(@class,'story_text')]//h4/a/text()"
+              },
+              "story_summary": {
+                "xpath": ".//div[contains(@class,'story_summary')]/text()"
+              },
+              "category": {
+                "xpath": ".//div[contains(@class,'post-meta')]//span[contains(@class,'category')]/text()"
+              },
+              "date": {
+                "xpath": ".//div[contains(@class,'post-meta')]//span[contains(@class,'post-date')]/text()"
+              }
+            }
+          }
+        }
+      },
+      "nextStep": [
+        {
+          "type": "detail",
+          "requestUrl": "{url}",
+          "detailConf": {
+            "name": "{title}.*",
+            "exceptionHandle": "RETRY",
+            "downloadAttach": [
+              {
+                "file": {
+                  "xpath": "//*[@class=\"post-content\"]//img/@src"
+                },
+                "master.*": {
+                  "url": "{file}",
+                  "ignoreExcept": false
+                }
+              }
+            ],
+            "subPack": true,
+            "checkFileSize": false,
+            "ignoreEmpty": true,
+            "parseIframe": false,
+            "resources": {
+              "sourceCode": true,
+              "css": 0,
+              "img": 0,
+              "js": 0,
+              "iframe": 0
+            }
+          }
+        }
+      ]
+    },
+    "timeout": 60,
+    "waitSeconds": 0,
+    "retryNum": 5,
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Accept-Encoding": "gzip, deflate, sdch",
+      "Accept-Language": "",
+      "Connection": "keep-alive",
+      "Pragma": "no-cache",
+      "Cache-Control": "no-cache",
+      "Upgrade-Insecure-Requests": "1"
+    },
+    "randomUA": true,
+    "cookiesOpts": []
+  },
+  "isBrowser": "0"
+}
