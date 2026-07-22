@@ -1,0 +1,73 @@
+{
+	"isBrowser": "0",
+	"mode": "multiTreeLevel",
+	"treeConf": {
+		"type": "list",
+		"listConf": {
+			"listParseByRow": {
+				"rowXPath": [
+					"//div[@class='page_layout layout_mb3 layout_pc_mt3']/div[@class='container']/div[@class='content_width']/div[@class='row is_row_type1 row_pc_mb1']//div[@class='post_items']"
+				],
+				"scene": {},
+				"fieldConfig": {
+					"fieldGroup1": {
+						"date": {
+							"xpath": "//div[contains(@class,'post_items')]/a[contains(@class,'post_item') and not(contains(@class,'is_top10'))]/div[contains(@class,'item_time')]/text()"
+						},
+						"source": {
+							"xpath": "//div[contains(@class,'post_items')]/a[contains(@class,'post_item') and not(contains(@class,'is_top10'))]/div[contains(@class,'item_dist')]/text()[normalize-space()]"
+						},
+						"title": {
+							"xpath": "//div[contains(@class,'post_items')]/a[contains(@class,'post_item') and not(contains(@class,'is_top10'))]/div[contains(@class,'item_ttl')]/text()"
+						},
+						"url": {
+							"xpath": "//div[contains(@class,'post_items')]/a[contains(@class,'post_item') and not(contains(@class,'is_top10'))]/@href"
+						}
+					}
+				}
+			}
+		},
+		"nextStep": [
+			{
+				"type": "detail",
+				"requestUrl": "{url}",
+				"detailConf": {
+					"name": "{title}.*",
+					"exceptionHandle": "RETRY",
+					"autoAttachment": true,
+					"subPack": true,
+					"checkFileSize": false,
+					"ignoreEmpty": true,
+					"parseIframe": false,
+					"resources": {
+						"sourceCode": true,
+						"css": 0,
+						"img": 0,
+						"js": 0,
+						"iframe": 0
+					}
+				}
+			}
+		]
+	},
+	"timeout": 60,
+	"waitSeconds": 0,
+	"retryNum": 5,
+	"proxyType": "normal",
+	"proxyParams": {
+		"proxyPolicy": "WDP_CLOUD"
+	},
+	"headers": {
+		"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+		"Cache-Control": "no-cache",
+		"Upgrade-Insecure-Requests": "1",
+		"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+		"Connection": "keep-alive",
+		"Accept-Encoding": "gzip, deflate, sdch",
+		"Accept-Language": "",
+		"Pragma": "no-cache",
+		"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+	},
+	"randomUA": true,
+	"cookiesOpts": []
+}
