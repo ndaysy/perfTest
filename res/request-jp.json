@@ -1,4 +1,8 @@
 {
+	"url":"https://www.47news.jp",
+    "isBrowser": "0",
+    "componentCfg":
+{
 	"isBrowser": "0",
 	"mode": "multiTreeLevel",
 	"treeConf": {
@@ -34,7 +38,7 @@
 				"detailConf": {
 					"name": "{title}.*",
 					"exceptionHandle": "RETRY",
-					"autoAttachment": true,
+					"autoAttachment": false,
 					"subPack": true,
 					"checkFileSize": false,
 					"ignoreEmpty": true,
@@ -70,4 +74,5 @@
 	},
 	"randomUA": true,
 	"cookiesOpts": []
+}
 }
