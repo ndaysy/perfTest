@@ -1,0 +1,82 @@
+{
+  "url": "https://finance.now.com/news/index.php",
+  "isBrowser": "1",
+  "componentCfg": {
+    "mode": "multiTreeLevel",
+    "treeConf": {
+      "listConf": {
+        "crack": {},
+        "optList": [],
+        "listLoad": {
+          "waitSecond": 3
+        },
+        "listParseByRow": {
+          "rowXPath": [
+            "//*[@id=\"newsList\"]/ul[2]/./li[not(div[@id='adLarge2'])]"
+          ],
+          "scene": {},
+          "fieldConfig": {
+            "fieldGroup1": {
+              "url": {
+                "xpath": "//li[not(contains(@class,'clearfix'))]/a[contains(@href,'/news/post.php')]/@href | //li[contains(@class,'clearfix') and not(.//div[contains(@class,'thumb')])]/a[contains(@href,'/news/post.php')]/@href | //li[contains(@class,'clearfix') and .//div[contains(@class,'play')]]/a[contains(@href,'/news/post.php')]/@href | //li[contains(@class,'clearfix') and .//div[contains(@class,'thumb')] and not(.//div[contains(@class,'play')])]/a[contains(@href,'/news/post.php')]/@href",
+                "formatFunc": []
+              },
+              "title": {
+                "xpath": "//li[not(contains(@class,'clearfix'))]//h3/text() | //li[contains(@class,'clearfix') and not(.//div[contains(@class,'thumb')])]//h3/text() | //li[contains(@class,'clearfix') and .//div[contains(@class,'play')]]//h3/text() | //li[contains(@class,'clearfix') and .//div[contains(@class,'thumb')] and not(.//div[contains(@class,'play')])]//h3/text()",
+                "formatFunc": []
+              },
+              "leading_text": {
+                "xpath": "//li[not(contains(@class,'clearfix'))]//div[contains(@class,'leading')]/text() | //li[contains(@class,'clearfix') and not(.//div[contains(@class,'thumb')])]//div[contains(@class,'leading')]/text() | //li[contains(@class,'clearfix') and .//div[contains(@class,'play')]]//div[contains(@class,'leading')]/text() | //li[contains(@class,'clearfix') and .//div[contains(@class,'thumb')] and not(.//div[contains(@class,'play')])]//div[contains(@class,'leading')]/text()",
+                "formatFunc": []
+              },
+              "date": {
+                "xpath": "//li[not(contains(@class,'clearfix'))]//div[contains(@class,'timeStamp')]/text() | //li[contains(@class,'clearfix') and not(.//div[contains(@class,'thumb')])]//div[contains(@class,'timeStamp')]/text() | //li[contains(@class,'clearfix') and .//div[contains(@class,'play')]]//div[contains(@class,'timeStamp')]/text()[not(contains(.,'('))] | //li[contains(@class,'clearfix') and .//div[contains(@class,'thumb')] and not(.//div[contains(@class,'play')])]//div[contains(@class,'timeStamp')]/text()",
+                "formatFunc": []
+              },
+              "stock_code": {
+                "xpath": "//li[contains(@class,'clearfix') and .//div[contains(@class,'play')]]//div[contains(@class,'timeStamp')]/text()[contains(.,'(')]",
+                "formatFunc": []
+              }
+            }
+          },
+          "autoExtract": 0
+        },
+        "pageList": {}
+      },
+      "type": "list",
+      "nextStep": [
+        {
+          "type": "detail",
+          "requestUrl": "{url}",
+          "optDetail": [],
+          "detailLoad": {
+            "waitSecond": 3,
+            "exceptionHandle": "RETRY",
+            "directDownload": true
+          },
+          "browser": {
+            "folder": "GoogleChrome109"
+          },
+          "detailConf": {
+            "maxWaitTime": 600,
+            "maxSize": 500,
+            "resources": {
+              "sourceCode": true,
+              "css": 0,
+              "img": 0,
+              "js": 0,
+              "iframe": 0
+            },
+            "nodeArray": [],
+            "autoAttachment": true,
+            "name": "{title}.*"
+          }
+        }
+      ]
+    },
+    "browser": {
+      "folder": "GoogleChrome109"
+    }
+  },
+  "config_ver": "v3.0_2026030503"
+}
