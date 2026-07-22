@@ -1,0 +1,72 @@
+{
+    "url": "https://kabushiki.jp/news/flash",
+    "isBrowser": "1",
+    "componentCfg": {
+      "mode": "multiTreeLevel",
+      "browser": {
+        "folder": "GoogleChrome109"
+      },
+      "treeConf": {
+        "type": "list",
+        "listConf": {
+          "optList": [],
+          "listLoad": {
+            "waitSecond": 3
+          },
+          "listParseByRow": {
+            "rowXPath": [
+              "/html/body/div[1]/div/div[1]/div//ul[@class='news-summary-list--items-1 cmn-sp-fluid-1']/li[contains(@class, 'cmn-summary-1') and contains(@class, 'size-md') and contains(@class, 'd-flex') and contains(@class, 'flex-row') and contains(@class, 'flex-md-row') and contains(@class, 'justify-content-between') and contains(@class, 'align-items-start') and contains(@class, 'flex-nowrap')]"
+            ],
+            "scene": {},
+            "fieldConfig": {
+              "fieldGroup1": {
+				"url": {
+                  "xpath": ".//h2[contains(@class,'cmn-summary-1--hl')]/a/@href"
+                },
+                "title": {
+                  "xpath": ".//h2[contains(@class,'cmn-summary-1--hl')]/a/text()"
+                },
+                "keyword": {
+                  "xpath": ".//div[contains(@class,'cmn-keyword-1')]/p/a/text()"
+                },
+                "date": {
+                  "xpath": ".//p[contains(@class,'cmn-keyword-1--date')]/text()"
+                },
+                "summary": {
+                  "xpath": ".//p[contains(@class,'d-none') and contains(@class,'d-md-block')]/text()[1]"
+                }
+              }
+            }
+          },
+          "pageList": {}
+        },
+        "nextStep": [
+          {
+            "type": "detail",
+            "requestUrl": "{url}",
+            "optDetail": [],
+            "detailLoad": {
+              "waitSecond": 3,
+              "exceptionHandle": "RETRY",
+              "directDownload": true
+            },
+            "detailConf": {
+              "maxWaitTime": 600,
+              "maxSize": 500,
+              "resources": {
+                "sourceCode": true,
+                "css": 0,
+                "img": 0,
+                "js": 0,
+                "iframe": 0
+              },
+              "nodeArray": [],
+              "name": "{title}.*"
+			             }
+          }
+        ]
+      }
+    },
+    "crack": {}
+  }
+
